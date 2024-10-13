@@ -58,7 +58,7 @@ function Login() {
       };
 
       const response = await axios.post(
-        "https://buddy-s-chat-be.onrender.com/user/register/",
+        "https://buddy-s-chat-be.onrender.com/user/register",
         data,
         config
       );
